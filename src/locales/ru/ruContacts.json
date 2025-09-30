@@ -1,0 +1,12 @@
+{
+  "title": "Контакты",
+  "description": "Отправьте мне сообщение, я свяжусь с вами в ближайшее время. Или свяжитесь со мной более удобным для вас способом",
+  "labelName": "Имя",
+  "fieldNamePlaceholder": "Введите ваше имя",
+  "labelEmail": "Почта",
+  "fieldEmailPlaceholder": "Введите вашу почту",
+  "labelMessage": "Сообщение",
+  "fieldMessagePlaceholder": "Введите текст сообщения",
+
+  "formSubmittedText": "Форма отправлена. Я скоро свяжусь с Вами!"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Contacts",
+  "description": "Send me a message, I will contact you shortly. Or contact me in a way more convenient for you",
+  "labelName": "Name",
+  "fieldNamePlaceholder": "Enter your name",
+  "labelEmail": "Email",
+  "fieldEmailPlaceholder": "Enter your email",
+  "labelMessage": "Message",
+  "fieldMessagePlaceholder": "Enter your message",
+  "formSubmittedText": "The form has been submitted. I\u00A0will\u00A0answer you very soon!"
+}
