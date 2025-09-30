@@ -3,9 +3,9 @@ import { theme } from '@/styles/theme'
 
 export const BurgerButton = styled.button<{ isOpen: boolean }>`
   position: absolute;
-  width: 70px;
-  height: 70px;
-  top: 0;
+  width: 40px;
+  height: 40px;
+  top: 10px;
   right: 0;
   z-index: 99999;
     
@@ -16,8 +16,7 @@ export const BurgerButton = styled.button<{ isOpen: boolean }>`
     width: 40px;
     height: 2px;
     background-color: ${theme.colors.accent};
-    left: 15px;
-    top: 35px;
+    top: 20px;
     transform: translateY(-50%);
     position: absolute;
     border-radius: 2px;

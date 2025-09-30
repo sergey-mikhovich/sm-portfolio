@@ -10,16 +10,16 @@ type Props = {
   code: string
 }
 
-export const Project = ({ name, description, code, photo }: Props) => {
+export const Project = ({ name, description, demo, code, photo }: Props) => {
   const { t } = useTranslation()
   return (
     <S.Project>
       <S.ImageWrapper>
         <S.Photo src={photo} alt={name} />
         <S.ButtonWrapper>
-          {/*<Button>*/}
-          {/*  <a href={demo}>{t('buttonDemo', { ns: 'portfolio' })}</a>*/}
-          {/*</Button>*/}
+          <Button>
+            <a target={'_blank'} href={demo}>{t('buttonDemo', { ns: 'portfolio' })}</a>
+          </Button>
           <Button variant={'outlined'}>
             <a target={'_blank'} href={code}>{t('buttonCode', { ns: 'portfolio' })}</a>
           </Button>

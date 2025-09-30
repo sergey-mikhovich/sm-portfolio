@@ -11,6 +11,11 @@ type Props = {
 export const MobileMenu = ({ menuItems }: Props) => {
   const [isOpen, setIsOpen] = useState(false)
   const openMenuHandler = () => {
+    if (isOpen) {
+      document.body.classList.remove('modalOpen')
+    } else {
+      document.body.classList.add('modalOpen')
+    }
     setIsOpen(!isOpen)
   }
 

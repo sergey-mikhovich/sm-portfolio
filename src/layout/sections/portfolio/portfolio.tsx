@@ -1,6 +1,7 @@
 import { Project } from './project'
 import styled from 'styled-components'
 import fullstackPizza from '@/assets/portfolio/fullstack_pizza.webp'
+import portfolio from '@/assets/portfolio/portfolio.webp'
 import { Container, FlexWrapper, SectionTitle } from '@/components'
 import { Fade } from 'react-awesome-reveal'
 import { useTranslation } from 'react-i18next'
@@ -11,10 +12,17 @@ export const Portfolio = () => {
   const projects = [
     {
       name: t('nameFullstackPizza', { ns: 'portfolio' }),
-      demo: 'https://it-inc-cards.vercel.app',
+      demo: 'https://sm-portfolio-alpha.vercel.app/',
       code: 'https://github.com/sergey-mikhovich/FullstackPizza',
       photo: fullstackPizza,
       description: `${t('descriptionFullstackPizza', { ns: 'portfolio' })}`,
+    },
+    {
+      name: t('namePortfolio', { ns: 'portfolio' }),
+      demo: 'https://sm-portfolio-alpha.vercel.app/',
+      code: 'https://github.com/sergey-mikhovich/sm-portfolio',
+      photo: portfolio,
+      description: `${t('descriptionPortfolio', { ns: 'portfolio' })}`,
     },
   ]
 

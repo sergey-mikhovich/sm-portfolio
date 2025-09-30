@@ -48,6 +48,10 @@ export const GlobalStyles = createGlobalStyle`
         &:focus-visible {
             outline: 1px solid ${theme.colors.font};
         }
+        
+        &.modalOpen {
+          overflow: hidden;
+        }
     }
 
     a {

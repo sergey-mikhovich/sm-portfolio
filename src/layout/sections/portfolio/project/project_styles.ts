@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import { theme } from '@/styles/theme'
 import { font } from '@/styles/common'
+import { Button } from '@/components'
 
 const ButtonWrapper = styled.div`
   display: flex;
@@ -11,6 +12,17 @@ const ButtonWrapper = styled.div`
   opacity: 0.9;
   transform: translate(-50%, -50%);
   z-index: -10;
+    
+  ${Button} {
+      padding: 0;
+  }
+    
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 26px;
+  }
 `
 const ImageWrapper = styled.div`
   position: relative;
