@@ -12,7 +12,7 @@ export const Portfolio = () => {
   const projects = [
     {
       name: t('nameFullstackPizza', { ns: 'portfolio' }),
-      demo: 'https://sm-portfolio-alpha.vercel.app/',
+      demo: 'https://fullstack-pizza-tau.vercel.app/',
       code: 'https://github.com/sergey-mikhovich/FullstackPizza',
       photo: fullstackPizza,
       description: `${t('descriptionFullstackPizza', { ns: 'portfolio' })}`,
